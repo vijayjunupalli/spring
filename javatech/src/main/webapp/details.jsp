@@ -1,7 +1,7 @@
 
 <html>
 
-<H1>The details you entered :</H1>
+<H1>The details you entered :::: :</H1>
 
 <%
 String user=(String)request.getAttribute("user");
