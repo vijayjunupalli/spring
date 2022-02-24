@@ -25,7 +25,7 @@ public class ConnectionUtility {
 			String sql = "insert into userDetails(name, password, email) values('" + userName + "','" + password + "','"
 					+ email + "')";
 			int result = statment.executeUpdate(sql);
-			System.out.println("execute result for the default build again....");
+			System.out.println("execute result for the default build ccagain....");
 
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
